@@ -1,0 +1,15 @@
+.title__container {
+  color: #ffffff;
+  font-family: 'Mona-Sans', sans-serif;
+}
+
+.title__container > h1 {
+  margin: 5px 5px;
+  font-size: 7.188rem;
+  display: flex;
+  justify-content: center;
+}
+
+.title__container > hr {
+  margin: 20px 0;
+}
