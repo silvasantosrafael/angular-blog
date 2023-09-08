@@ -1,14 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.cdnfonts.com/css/mona-sans');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #191919;
-  font-family: 'Mona-Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
+  color: #ececec;
 }
 
 body {
   margin: 0 15%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+hr {
+  border: 0.8px solid rgb(48, 48, 48);
 }

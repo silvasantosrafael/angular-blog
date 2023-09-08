@@ -8,10 +8,6 @@
   width: 170px;
 }
 
-.small-card__title {
-  color: #ececec;
-}
-
 .small-card__date {
   margin: 5px 0 12px 0;
   font-size: 0.7rem;
