@@ -1,0 +1,16 @@
+.articles__container {
+  display: flex;
+  margin-top: 60px;
+  gap: 60px;
+}
+
+.article__main {
+  width: 100%;
+}
+
+.article__aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+}
