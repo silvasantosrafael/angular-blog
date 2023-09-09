@@ -1,9 +1,9 @@
-.big-card__container a {
-  text-decoration: none;
+.big-card__container {
+  width: 700px;
 }
 
-.big-card__container:hover {
-  filter: brightness(1.25);
+.big-card__container a {
+  text-decoration: none;
 }
 
 .big-card__picture {

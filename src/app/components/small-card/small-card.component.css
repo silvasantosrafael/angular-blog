@@ -4,8 +4,8 @@
 }
 
 .small-card__picture > img{
-  height: 140px;
-  width: 180px;
+  max-height: 160px;
+  min-width: 252px;
 }
 
 .small-card__date {

@@ -1,18 +1,16 @@
 <div class="small-card__wrapper">
-  <div class="small-card__container">
-    <div class="small-card__picture">
-      <img
-        src="assets/images/small-card_picture.jpg"
-        alt="A small card image"
-      />
+  <a href="{{ cardLink }}" target="_blank">
+    <div class="small-card__container">
+      <div class="small-card__picture">
+        <img src="{{ cardPhotoCover }}" alt="A small card image" />
+      </div>
+      <div class="small-card__title">
+        <div class="small-card__date">{{ cardDate }}</div>
+        <h3>
+          {{ cardTitle }}
+        </h3>
+      </div>
     </div>
-    <div class="small-card__title">
-      <div class="small-card__date">January 22, 2023</div>
-      <h3>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-        obcaecati culpa, corrupti
-      </h3>
-    </div>
-  </div>
-  <hr class="small-card__separator"/>
+  </a>
+  <hr class="small-card__separator" />
 </div>
