@@ -23,3 +23,9 @@ li {
 hr {
   border: 0.8px solid rgb(48, 48, 48);
 }
+
+@media screen and (max-width: 420px){
+  body {
+    margin: 0 10px;
+  }
+}

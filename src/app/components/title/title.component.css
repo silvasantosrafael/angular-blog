@@ -3,6 +3,7 @@
   font-size: 7.188rem;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 .title__container > hr {

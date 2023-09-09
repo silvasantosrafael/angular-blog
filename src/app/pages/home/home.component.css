@@ -1,16 +1,20 @@
-.articles__container {
-  display: flex;
-  margin-top: 60px;
-  gap: 60px;
+header {
+  margin: 50px 0;
 }
 
-.article__main {
-  width: 100%;
+.articles__container {
+  display: flex;
+  margin: 60px 5% 60px 5%;
+  gap: 60px;
+
 }
 
 .article__aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 90%;
+}
+
+.menu__links_social {
+  display: none;
 }

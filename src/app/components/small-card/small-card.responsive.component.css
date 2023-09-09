@@ -1,0 +1,14 @@
+@media screen and (max-width: 420px) {
+  .small-card__container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 18px;
+    font-size: .8rem;
+  }
+
+  .small-card__picture>img {
+    height: 100px;
+    width: 140px;
+  }
+}

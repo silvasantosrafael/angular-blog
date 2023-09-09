@@ -1,0 +1,22 @@
+@media screen and (max-width: 420px){
+  header {
+    margin: 10px 0;
+  }
+  
+  .articles__container {
+    flex-direction: column;
+    margin-top: auto;
+  }
+
+  .articles__container > aside {
+    width: 95%;
+  }
+
+  .menu__links_social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+  }
+}

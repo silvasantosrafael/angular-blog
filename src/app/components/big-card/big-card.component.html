@@ -1,15 +1,14 @@
 <div class="big-card__container">
-  <a href="https://fedoramagazine.org/announcing-fedora-38/" target="_blank">
+  <a href={{cardLink}} target="_blank">
     <div class="big-card__picture">
-      <img src="assets/images/big-card_picture.jpg" alt="A big card image" />
+      <img src="{{ cardPhotoCover }}" alt="A big card image" />
     </div>
     <div class="big-card__title">
-      <div class="big-card__date">April 17, 2023</div>
-      <h2>Announcing Fedora Linux 38</h2>
+      <div class="big-card__date">{{cardDate}}</div>
+      <h2>{{ cardTitle }}</h2>
     </div>
     <div class="big-card__description">
-      Today I’m excited to share the results of the hard work of thousands of
-      Fedora Project contributors: the Fedora Linux 38 release is here!
+      {{ cardDescription }}
     </div>
   </a>
 </div>
