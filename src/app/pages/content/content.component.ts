@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { dataMock } from 'src/app/data/dataMock';
 
 @Component({
   selector: 'app-content',
@@ -8,11 +9,14 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ContentComponent implements OnInit {
   @Input()
-  cardPhotoCover: string = 'https://www.topgadget.com.br/wp-content/uploads/2022/02/Windows-11-Paint.png';
+  cardPhotoCover: string = '';
   @Input()
-  cardTitle: string = 'Paint do Windows 11';
+  cardDate: string = '';
   @Input()
-  cardDescription: string = 'O paint do windows 11 foi remodelado';
+  cardTitle: string = '';
+  @Input()
+  cardDescription: string = '';
+  private id: string | null = '0';
 
   constructor(
     private route: ActivatedRoute
@@ -21,7 +25,18 @@ export class ContentComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe(value => console.log(value))
+    this.route.paramMap.subscribe(value => this.id = value.get('id'))
+    this.valuesToComponent(this.id)
+  }
+
+  valuesToComponent(id: string | null) {
+    const data = dataMock.filter(post => post.id === id)[0];
+    if (data != null) {
+      this.cardPhotoCover = data.photo;
+      this.cardDate = data.date;
+      this.cardTitle = data.title;
+      this.cardDescription = data.description;
+    }
   }
 
 }

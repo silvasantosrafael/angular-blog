@@ -9,6 +9,11 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
+    path: "content/:id",
+    pathMatch: 'full',
+    component: ContentComponent
+  },
+  {
     path: "content",
     component: ContentComponent
   }

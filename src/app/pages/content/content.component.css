@@ -5,14 +5,20 @@
 
 .content__title {
   max-width: 750px;
-  margin: 50px 0;
+  margin: 40px 0;
 }
 
 .content__cover > img {
-  min-width: 512px;
-  max-height: 512px;
+  width: 712px;
+  height: 412px;
 }
 
 .content__description {
   margin-top: 40px;
+}
+
+.content__date {
+  margin: 10px 0;
+  font-size: 0.8rem;
+  color: grey;
 }
