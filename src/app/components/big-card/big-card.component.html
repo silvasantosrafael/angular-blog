@@ -1,5 +1,5 @@
 <div class="big-card__container">
-  <a href={{cardLink}} target="_blank">
+  <a [routerLink]="['content', cardId]">
     <div class="big-card__picture">
       <img src="{{ cardPhotoCover }}" alt="A big card image" />
     </div>

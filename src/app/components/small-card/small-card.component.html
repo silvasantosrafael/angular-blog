@@ -1,5 +1,5 @@
 <div class="small-card__wrapper">
-  <a href="{{ cardLink }}" target="_blank">
+  <a [routerLink]="['content', cardId]">
     <div class="small-card__container">
       <div class="small-card__picture">
         <img src="{{ cardPhotoCover }}" alt="A small card image" />
