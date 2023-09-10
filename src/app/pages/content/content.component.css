@@ -1,21 +1,25 @@
 .content__container {
-  /* width: 100%; */
   margin: 50px 20%;
   font-size: 1.3rem;
 }
 
 .content__title {
-  max-width: 750px;
+  max-width: 712px;
   margin: 40px 0;
 }
 
-.content__cover > img {
+.content__cover>img {
   width: 712px;
   height: 412px;
 }
 
-.content__description {
+.content__description,
+.content__text  {
   margin-top: 40px;
+}
+
+.content__description > p{
+  color: gray;
 }
 
 .content__date {
@@ -25,6 +29,7 @@
 }
 
 .content__text {
-  max-width: 750px;
-  line-height: 1.5;
+  max-width: 712px;
+  line-height: 1.8;
+  text-align: justify;
 }

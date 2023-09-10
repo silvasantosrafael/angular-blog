@@ -1,0 +1,16 @@
+.about__container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 80px 20% 0 20%;
+}
+
+.about__photo>img {
+  height: 300px;
+  border-radius: 50%;
+}
+
+.about__text > p{
+  line-height: 2;
+  font-size: 1.2rem;
+}

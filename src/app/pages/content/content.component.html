@@ -1,16 +1,16 @@
 <hr />
 <div class="content__container">
   <div class="content__title">
-    <div class="content__date">{{cardDate}}</div>
+    <div class="content__date">{{ cardDate }}</div>
     <h1>{{ cardTitle }}</h1>
+    <div class="content__description">
+      <p>{{ cardDescription }}</p>
+    </div>
   </div>
   <div class="content__cover">
-    <img src="{{cardPhotoCover}}" alt="Cover image" />
-  </div>
-  <div class="content__description">
-    <p>{{ cardDescription }}</p>
+    <img src="{{ cardPhotoCover }}" alt="Cover image" />
   </div>
   <div class="content__text">
-    <p>{{cardText}}</p>
+    <p>{{ cardText }}</p>
   </div>
 </div>

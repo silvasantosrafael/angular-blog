@@ -10,6 +10,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { PostsComponent } from './pages/posts/posts.component';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PostsComponent } from './pages/posts/posts.component';
     SmallCardComponent,
     HomeComponent,
     ContentComponent,
-    PostsComponent
+    PostsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
