@@ -8,6 +8,7 @@ import { dataMock } from 'src/app/data/dataMock';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
+  
   @Input()
   cardPhotoCover: string = '';
   @Input()
@@ -16,6 +17,8 @@ export class ContentComponent implements OnInit {
   cardTitle: string = '';
   @Input()
   cardDescription: string = '';
+  @Input()
+  cardText: string = '';
   private id: string | null = '0';
 
   constructor(
@@ -36,6 +39,7 @@ export class ContentComponent implements OnInit {
       this.cardDate = data.date;
       this.cardTitle = data.title;
       this.cardDescription = data.description;
+      this.cardText = data.text;
     }
   }
 

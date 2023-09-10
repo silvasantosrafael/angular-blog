@@ -1,6 +1,7 @@
 .content__container {
-  width: 100%;
-  margin-top: 50px;
+  /* width: 100%; */
+  margin: 50px 20%;
+  font-size: 1.3rem;
 }
 
 .content__title {
@@ -21,4 +22,9 @@
   margin: 10px 0;
   font-size: 0.8rem;
   color: grey;
+}
+
+.content__text {
+  max-width: 750px;
+  line-height: 1.5;
 }
